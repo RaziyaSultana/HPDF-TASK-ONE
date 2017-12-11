@@ -7,22 +7,14 @@ import PropTypes from 'prop-types';
 import { Container, Header, Title, Left, Icon, Right, Button, Body, Content, Fab, Tab, 
   Tabs, TabHeading,Text, Card } from "native-base";
 
-//make functional component
+
 const HomeHeader = (props) => {
-//destructuring to use styles so that to call textStyle do not need to do styles.textStyle
   const { textStyle, viewStyle } = styles;
   const {navigation} =props;
 
-  //props example style used
+
   return ( 
-    // <View style={styles.viewStyle}>
-    // <TouchableWithoutFeedback onPress={() => navigation.navigate('DrawerOpen')} >
-    //       <View >
-    //         <Image source={{ uri:'http://lorempixel.com/400/200'  }} resizeMode="cover" />
-    //        </View>
-    //     </TouchableWithoutFeedback>
-    //     </View>
-    
+       
     <Header hasTabs style={{backgroundColor:'white'}}>
     <Left>
     <Button
